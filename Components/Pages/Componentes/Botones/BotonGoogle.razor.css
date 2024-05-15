@@ -1,0 +1,19 @@
+.boton {
+    transition-property: background-color;
+    transition-duration: .3s;
+    width: 100%;
+    border-radius: 6px;
+    border: none;
+    height: 29px;
+    background-color: rgb(217 217 217);
+    margin-bottom: 16px;
+}
+
+.boton:hover {
+    background-color: #b9b7b7;
+}
+
+.boton:active {
+    transition-duration: .1s;
+    background-color: #979494;
+}

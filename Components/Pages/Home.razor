@@ -1,0 +1,43 @@
+@page "/"
+@rendermode InteractiveServer
+@using BlazorApp.Components.Pages.Componentes.Inputs
+@using BlazorApp.Components.Pages.Componentes.Botones
+
+<div class="contenedor-flex">
+    <form action="" class="formulario">
+        <header class="titulo-form">
+            <h1>Registrarse</h1>
+        </header>
+
+        <div class="contenedor-img">
+            <img class="img-user" src="user.png" alt="">
+        </div>
+
+        <label>Nombre de usuario:</label>
+        <InputForm tipoInput="text" valorPlaceholder="Usuario"/>
+
+        <label>Correo electronico:</label>
+        <InputForm tipoInput="text" valorPlaceholder="Email"/>
+
+        <label>Contraseña:</label>
+        <InputForm tipoInput="password" valorPlaceholder="Contraseña"/>
+
+        <BotonEnviar nombreBoton="Crear cuenta" />
+        <BotonGoogle valor="Registrarse con google"/>
+    </form>
+</div>
+
+@code {
+    List<string> listaString = new List<string>() {"Peito", "Sappe"};
+    @* private void handleSubmit()
+    {
+        if (e)
+        {
+            sd
+        }
+        else
+        {
+            
+        }
+    } *@
+}

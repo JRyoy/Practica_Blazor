@@ -1,0 +1,42 @@
+/* Contenedor formulario */
+
+.contenedor-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: linear-gradient(to top, #6F5CE4, #451bee);
+}
+
+/* Estilo de formulario */
+
+.formulario {
+    width: 310px;
+    display: flex;
+    padding: 32px;
+    flex-wrap: wrap;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: -2px 2px 20px 1px #000;
+    flex-shrink: 0;
+}
+
+/* Titulo del formulario */
+
+.titulo-form {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+/* Contenedor de imagen */
+
+.contenedor-img {
+    width: 100%;
+    text-align: center;
+}
+
+.img-user {
+    width: 100px;
+    margin-bottom: 20px;
+} 
